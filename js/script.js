@@ -28,6 +28,7 @@ const handleSubmit = () => {
 
    }
 }
+//player two part
 const handlePlayer2 = () => {
     if (!inputtwo.value) {
         error.innerHTML = 'Please enter a value';
@@ -55,6 +56,7 @@ const handlePlayer2 = () => {
         }
     }
 }
+//player 3 part
 const handlePlayer3 = () => {
     if (!inputthree.value) {
         error.innerHTML = 'Please enter a value';
