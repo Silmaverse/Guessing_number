@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2 class="player_no">Player 1</h2>
+    <p class="err"></p>
+    <div class="main_box">
+        <div class="player_one">
+            <input class="oneInput" type="number" placeholder="Enter your Number">
+            <button onclick="handleSubmit()">Go</button>
+        </div>
+        <div class="player_two">
+            <h3 style="text-align: end; margin-bottom:5px;"><span class="chance">0</span>/5</h3>
+            <input class="twoInput" type="number" placeholder="Enter your Number">
+            <button onclick="handlePlayer2 ()">Go</button>
+        </div>
+        <div class="player_three">
+            <h3 style="text-align: end; margin-bottom:5px;"><span class="chance2">0</span>/5</h3>
+            <input class="threeInput" type="number" placeholder="Enter your Number">
+            <button onclick="handlePlayer3 ()">Go</button>
+        </div>
+    </div>
+    <div class="winner">
+        <h2 class="win_name"></h2>
+        <img src="images/images.png" alt="trophyerror">
+    </div>
+
+    
+
+    <!-- script js -->
+     <script src="js/script.js"></script>
+</body>
+</html>
